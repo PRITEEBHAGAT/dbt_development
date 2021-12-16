@@ -20,3 +20,4 @@ docker run --rm -ip 8080:8080 -v $(pwd):/usr/app -v $(pwd)/:/root/.dbt fishtowna
 docker run --rm -ip 8080:8080 -v $(pwd):/usr/app -v $(pwd)/:/root/.dbt fishtownanalytics/dbt:0.19.0 clean
 ```
 # PRITEEBHAGAT
+# snowflake_test1

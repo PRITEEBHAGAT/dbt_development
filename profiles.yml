@@ -6,13 +6,13 @@ default:
 
     dev: # User-Password config
       type: snowflake
-      account: your-snowflake-account-id-here
+      account: zl02966.west-us-2.azure
       user: DBT_CLOUD_DEV
-      password: your-password-here
+      password: ABC123
       role: TRANSFORMER_DEV
       database: DEV
       warehouse: TRANSFORMING
-      schema: dbt_your-username-here
+      schema: Priteebhagat
       threads: 2
       client_session_keep_alive: False
 
