@@ -1,3 +1,5 @@
+
+  
 config:
   send_anonymous_usage_stats: False
 
@@ -7,13 +9,13 @@ default:
     dev: # User-Password config
       type: snowflake
       account: zl02966.west-us-2.azure
-      user: DBT_CLOUD_DEV
-      password: ABC123
-      role: TRANSFORMER_DEV
+      user: PRITEEBHAGAT
+      password: Prisha@247
+      role: ACCOUNTADMIN
       database: DEV
       warehouse: TRANSFORMING
-      schema: Priteebhagat
-      threads: 2
+      schema: dbt_JKM
+      threads: 1
       client_session_keep_alive: False
 
   target: dev

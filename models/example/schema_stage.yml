@@ -2,16 +2,16 @@
 version: 2
 
 models:
-  - name: pickup_taxi
+  - name: coordinate_stage
     description: "Coordinate table in stage"
     columns:
-      - name: loaction_id
+      - name: coordinate_id
         description: "The primary key for this table"
         tests:
           - unique
           - not_null
 
-  - name: drop_taxi
+  - name: zone_stage
     description: "Zone table in stage"
     columns:
       - name: location_id
