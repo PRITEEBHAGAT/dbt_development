@@ -1,21 +1,23 @@
-
-  
 config:
-  send_anonymous_usage_stats: False
-
+  use_colors: true
 default:
   outputs:
-
-    dev: # User-Password config
-      type: snowflake
-      account: zl02966.west-us-2.azure
-      user: PRITEEBHAGAT
-      password: Prisha@247
-      role: ACCOUNTADMIN
-      database: DEV
-      warehouse: TRANSFORMING
-      schema: dbt_JKM
+    dev:
+      dbname: nyc_taxi
+      host: 111.118.241.68
+      pass: 47Billion
+      port: 5431
+      schema: nyc_taxi_schema
       threads: 1
-      client_session_keep_alive: False
-
+      type: postgres
+      user: postgres
+    prod:
+      dbname: nyc_taxi
+      host: 111.118.241.68
+      pass: 47Billion
+      port: 5431
+      schema: analytics
+      threads: 1
+      type: postgres
+      user: postgres
   target: dev
